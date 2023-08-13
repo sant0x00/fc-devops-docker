@@ -19,3 +19,4 @@ build-prod:
 run-prod:
 	@ make build-prod
 	@ docker run -d --network laravel_net --name laravel santos0santos0/laravel:prod
+	

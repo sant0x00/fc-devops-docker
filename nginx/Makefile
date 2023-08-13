@@ -14,3 +14,4 @@ build-prod:
 run-prod:
 	@ make build-prod
 	@ docker run -d --network laravel_net --name nginx -p 8080:80 santos0santos0/nginx:prod
+	
